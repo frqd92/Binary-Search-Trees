@@ -1,0 +1,19 @@
+{
+  "name": "binary-search-trees",
+  "version": "1.0.0",
+  "description": "BST assignment from The Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack --mode=development",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
